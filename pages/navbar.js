@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 export default function Navbar() {
   const [fixed, setFixed] = useState(false);
 
@@ -24,9 +25,7 @@ export default function Navbar() {
             <Image src={"/Union.svg"} width={90} height={50} />
           </div>
           <div className="right-side">
-            <a href="" className="navbar-element">
-              Home
-            </a>
+            <Link href="/secondPage">Home</Link>
             <a href="" className="navbar-element">
               About
             </a>
@@ -49,15 +48,9 @@ export default function Navbar() {
             <Image src={"/Union.svg"} width={90} height={50} />
           </div>
           <div className="right-side">
-            <a href="" className="navbar-element">
-              Home
-            </a>
-            <a href="" className="navbar-element">
-              About
-            </a>
-            <a href="" className="navbar-element">
-              Contact Us
-            </a>
+            <Link href="/secondPage">Home</Link>
+            <Link href="/thirdPage">About</Link>
+            <Link href="/fourthpage">Contact Us</Link>
             <a href="" className="navbar-element">
               Legal Documents
             </a>

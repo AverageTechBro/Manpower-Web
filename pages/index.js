@@ -8,8 +8,11 @@ import Services from "./services";
 import OurServices from "./ourservices";
 import Testimonial from "./testimonial";
 import Investment from "./investment";
+import Clients from "./client";
 const inter = Inter({ subsets: ["latin"] });
 import Blog from "./blog";
+import Footer from "./footer";
+import OppCard from "./oppurtunity-card";
 
 export default function Home() {
   return (
@@ -32,6 +35,9 @@ export default function Home() {
       <Testimonial />
       <Investment />
       <Blog />
+      <Clients />
+      <OppCard />
+      <Footer />
     </div>
   );
 }
