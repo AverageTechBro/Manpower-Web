@@ -26,12 +26,8 @@ export default function Navbar() {
           </div>
           <div className="right-side">
             <Link href="/secondPage">Home</Link>
-            <a href="" className="navbar-element">
-              About
-            </a>
-            <a href="" className="navbar-element">
-              Contact Us
-            </a>
+            <Link href="/thirdPage">About</Link>
+            <Link href="/fourthpage">Contact Us</Link>
             <a href="" className="navbar-element">
               Legal Documents
             </a>

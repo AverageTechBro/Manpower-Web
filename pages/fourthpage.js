@@ -10,12 +10,8 @@ export default function Fourth() {
         </div>
         <div className="right-side">
           <Link href="/secondPage">Home</Link>
-          <a href="" className="navbar-element">
-            About
-          </a>
-          <a href="" className="navbar-element">
-            Contact Us
-          </a>
+          <Link href="/thirdPage">About</Link>
+          <Link href="/fourthpage">Contact Us</Link>
           <a href="" className="navbar-element">
             Legal Documents
           </a>
@@ -53,10 +49,13 @@ export default function Fourth() {
       <div className="fourthpage-choose-container">
         <ul>
           <li></li>
-          <p>ABOUT</p>
+          <p>WHY US</p>
           <li></li>
         </ul>
         <h1>Reasons to Choose US</h1>
+        <div className="fourthpage-reasons">
+          <div className="left-side"></div>
+        </div>
       </div>
       <FooterSec />
     </div>
