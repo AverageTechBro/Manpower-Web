@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import JobBox from "./jobBox";
+import ToggleClass from "./togglemenu";
 import FooterSec from "./footersec";
 export default function Second() {
   return (
@@ -22,6 +23,7 @@ export default function Second() {
             </a>
             <button className="navbar-element">Send Resume</button>
           </div>
+          <ToggleClass />
         </div>
       </div>
       <div className="vaccancy-intro-container">

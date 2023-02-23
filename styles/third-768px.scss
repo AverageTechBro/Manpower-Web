@@ -1,0 +1,180 @@
+@media screen and (max-width: 1378px) {
+    
+.thirdpage-container{
+
+    .navbar-container{
+        .left-side{
+            width: 120px;
+            height: 100px;
+            background-image: url('../public/snnavbar-logo.svg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-bottom: -3.7rem;
+            img{
+                display: none;
+            }
+        }
+        position: fixed;
+        margin-top:1.5rem;
+        display: flex;
+        align-items: center;
+        color: #F4F5FA;
+        justify-content: space-between;
+        width: 100vw;
+        height: 4.25vw;
+        img{
+            width: 120px;
+            height: 100px;
+        }
+        a{
+            text-decoration: none;
+            color: #2C2A4A;
+            font-size: 18px;
+            margin: 0 2rem 0 0;
+            letter-spacing: 2.5px;
+        }
+        button{
+            background-color: #FF5A3E;
+            color: #F4F5FA;
+            border: none;
+            font-size: 18px;
+            padding: 1rem;
+            border-radius: 2px;
+            
+        }
+        .left-side{
+            margin-left: 6rem;
+    
+        }
+        .right-side{
+            margin-right: 6rem;
+        }
+       
+    }
+    .thirdpage-map-container{
+        position: relative;
+        transform: translateY(81px);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        width: 100vw;
+        height: 600px;
+        background-image: url('../public/th-map.svg');
+        .thirdpage-map-text{
+            display: flex;
+            flex-direction: column;
+            background-color: #EDEDED;
+            position: absolute;
+            width: 420px;
+            height: 250px;
+            bottom: 21.5%;
+            left: 4%;
+            img{
+                margin-left: 1.5rem;
+            }
+            .text-container{
+                margin-left: 1.5rem;
+            p{
+                color: #56556E;
+                font-size: 16px;
+                letter-spacing: 1.1px;
+                line-height: 29px;
+                span{
+                    margin-left: 2.3rem;
+                    
+                }
+            }
+            img{
+                margin-left: 0;
+                margin-right: 0.5rem;
+            }
+            p:first-child{
+                margin-bottom: 2rem;
+            }
+        }
+        }
+    }
+    .thirdpage-padding{
+        width: 100vw;
+        height: 700px;
+        background-color: #F9F9F9;
+
+    }
+    .third-page-contact{
+        width: 800px;
+        height: 800px;
+        position: absolute;
+        top: 300px;
+        right: 4%;
+        background-color: #EDEDED;
+       .contact-padding{
+        padding: 3rem 2rem;
+        ul{
+            display: flex;
+            align-items: center;
+            
+            li::marker{
+                color: #FF5A3E;
+
+            }
+            p{
+                color: #FF5A3E;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            li{
+                font-size: 20px;
+            }
+            li:first-child{
+                margin-right: 1rem;
+            }
+            li:last-child{
+                margin-left: 2.5rem;
+            }
+        }
+        h1{
+            color: #2C2A4A;
+            font-family: Inter;
+            font-weight: 500;
+            letter-spacing: 2.2px;
+        }
+        .sub-text{
+            margin-top: -1rem;
+            color: #56556E;
+            margin-left: 4px;
+        }
+        .search-container{
+            input{
+                margin: 1.5rem;
+                background-color: #F5F5F5;
+                width: 300px;
+                height: 65px;
+                border-radius: 5px;
+                border:none;
+                color: #56556E;
+                padding: 0 0rem 0 1rem;
+            }
+        }
+        .main-input{
+            width: 655px;
+            height: 100px;
+            margin-left: 2rem;
+            border:none;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: #F5F5F5;
+            color: #56556E;
+            padding: 0 0 0 1rem;
+        }
+        button{
+            width: 100%;
+            margin-top: 6rem;
+            background-color: #FF5A3E;
+            padding: 2rem;
+            color: white;
+            font-size: 18px;
+        }
+       }
+    }
+    
+}
+}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ToggleClass from "./togglemenu";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 export default function Navbar() {
@@ -17,6 +18,11 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const [isToggled, setIsToggled] = useState(false);
+
+  const handleClick = () => {
+    setIsToggled(!isToggled);
+  };
   return (
     <div className="main-navbar-container">
       <div className={`my-element ${fixed ? "fixed-class" : ""}`}>
@@ -37,6 +43,9 @@ export default function Navbar() {
             <button className="navbar-element">Send Resume</button>
           </div>
         </div>
+      </div>
+      <div className="mobile-navbar-container">
+        <ToggleClass />
       </div>
       <div className={`primary-navbar ${fixed ? "hide-display" : ""}`}>
         <div className="navbar-container scss-static-purpose">

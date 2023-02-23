@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ToggleClass from "./togglemenu";
 import Image from "next/image";
 import FooterSec from "./footersec";
 export default function Third() {
@@ -20,6 +21,7 @@ export default function Third() {
           </a>
           <button className="navbar-element">Send Resume</button>
         </div>
+        <ToggleClass />
       </div>
       <div className="thirdpage-map-container">
         <div className="thirdpage-map-text">

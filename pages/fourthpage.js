@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import FooterSec from "./footersec";
+import ToggleClass from "./togglemenu";
 export default function Fourth() {
   return (
     <div className="fourthpage-container">
@@ -20,6 +21,7 @@ export default function Fourth() {
           </a>
           <button className="navbar-element">Send Resume</button>
         </div>
+        <ToggleClass />
       </div>
       <div className="fourthpage-wallpaper">
         <h1>ABOUT US</h1>

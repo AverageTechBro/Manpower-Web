@@ -1,0 +1,177 @@
+.toggle-menu{
+    .toggler{
+        position: absolute;
+        z-index: 99999999999999999999999999999999999999999999999999999999;
+        background-color: #FF5A3E;
+        width: 100px;
+        border-radius: 2px;
+        height: 50px;
+        font-size: 16px;
+        color: #F4F5FA;
+        right: 10%;
+        top: 10px;
+    }
+    .resume-button{
+        position: absolute;  background-color: #FF5A3E;
+        width: 140px;
+        border-radius: 2px;
+        height: 50px;
+        font-size: 16px;
+        color: #F4F5FA;
+        right: 29%;
+        top: 10px;
+    }
+    
+
+    .IItoggled{
+       opacity: 1;
+    }
+    .hello{
+        opacity: 0;
+    }
+        .tagged-side{
+            background-color: #2c2a4a9d;
+            position: absolute; 
+            border-radius: 5px;
+            right: 1%;
+            top: 7%;
+            display:flex;
+            
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+           
+        }
+            a{
+                text-align: center;
+                line-height: 40px;
+                color: #F4F5FA;
+                font-size: 18px;
+                
+                letter-spacing: 2.5px;
+                text-decoration: none;
+            }
+    
+        
+    }
+    .secondpage-container{
+        .toggle-menu{
+            .toggler{
+                position: absolute;
+                z-index: 99999999999999999999999999999999999999999999999999999999;
+                background-color: #FF5A3E;
+                width: 100px;
+                border-radius: 2px;
+                height: 50px;
+                font-size: 16px;
+                color: #F4F5FA;
+                right: 10%;
+                top: 10px;
+            }
+            .resume-button{
+                position: absolute;  background-color: #FF5A3E;
+                width: 140px;
+                border-radius: 2px;
+                height: 50px;
+                font-size: 16px;
+                color: #F4F5FA;
+                right: 29%;
+                top: 10px;
+            }
+            
+        
+            .IItoggled{
+               opacity: 1;
+            }
+            .hello{
+                opacity: 0;
+            }
+                .tagged-side{
+                    background-color: #8c8c8c9d;
+                    position: absolute; 
+                    border-radius: 5px;
+                    right: 2%;
+                    top: 65px;
+                    display:flex;
+                    
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 250px;
+                   
+                }
+                    a{
+                        text-align: center;
+                        line-height: 40px;
+                        color: #F4F5FA !important;
+                        font-size: 18px;
+                        margin: 0 !important;
+                        letter-spacing: 2.5px;
+                        text-decoration: none;
+                    }
+            
+                
+            }
+            
+    }
+    .thirdpage-container,
+    .fourthpage-container{
+        .toggle-menu{
+            .toggler{
+                position: absolute;
+                z-index: 99999999999999999999999999999999999999999999999999999999;
+                background-color: #FF5A3E;
+                width: 100px;
+                border-radius: 2px;
+                height: 50px;
+                font-size: 16px;
+                color: #F4F5FA;
+                right: 10%;
+                top: 10px;
+            }
+            .resume-button{
+                position: absolute;  background-color: #FF5A3E;
+                width: 140px;
+                border-radius: 2px;
+                height: 50px;
+                font-size: 16px;
+                color: #F4F5FA;
+                right: 29%;
+                top: 10px;
+            }
+            
+        
+            .IItoggled{
+               opacity: 1;
+            }
+            .hello{
+                opacity: 0;
+            }
+                .tagged-side{
+                    background-color: #8c8c8c9d;
+                    position: absolute; 
+                    border-radius: 5px;
+                    right: 2%;
+                    top: 65px;
+                    display:flex;
+                    
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 250px;
+                   
+                }
+                    a{
+                        text-align: center;
+                        line-height: 40px;
+                        color: #F4F5FA !important;
+                        font-size: 18px;
+                        margin: 0 !important;
+                        letter-spacing: 2.5px;
+                        text-decoration: none;
+                    }
+            
+                
+            }
+    }

@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="footer-top-divs">
+        <div className="footer-top-divs first-div-footer ">
           <ul>
             <p>Employers</p>
             <li>Overview</li>
@@ -32,7 +32,7 @@ export default function Footer() {
             <li>Send us your CV</li>
           </ul>
         </div>
-        <div className="footer-top-divs">
+        <div className="footer-top-divs footer-recourse-div ">
           <ul>
             <p>Recources</p>
             <li>Browse all content</li>

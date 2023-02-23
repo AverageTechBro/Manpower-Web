@@ -30,7 +30,7 @@ export default function FooterSec() {
             notices
           </p>
           <div className="search-bar">
-            <input type="text" />
+            <input type="text" placeholder="Email" />
             <button>
               {" "}
               <Image src={"/sendicon.svg"} width={20} height={20} />{" "}
